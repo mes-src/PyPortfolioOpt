@@ -1,4 +1,10 @@
-<mybranch> include dataframe builder to feed into opt models
+<mybranch> 
+include dataframe builder to feed into opt models
+cvxpy required for solving convex optimization
+add venv to jupyternb
+
+
+
 
 <p align="center">
     <img width=60% src="https://github.com/robertmartin8/PyPortfolioOpt/blob/master/media/logo_v1.png">
