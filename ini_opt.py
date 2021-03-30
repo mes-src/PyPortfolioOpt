@@ -1,8 +1,5 @@
 # build initial df using pandas_datareader
 # date range
-
-
-
 #qunadl, tiingo, pandas_datareader
 
 import yahoo_fin as yf 
@@ -21,7 +18,7 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 
 def multi_stock():
-	tickers_list = ['AMZN','GOOGL', 'NVDA', 'MLM', 'ATO', 'KMI','JNJ', 'JPM', 'C']
+	tickers_list = ['MLM','ITW','GOOGL','AAPL','MSFT','JNJ','AMT','SPG','VZ','JPM','C','GSK','ACGL','RE','ATO']
 	data = yf.download(tickers_list,'2015-1-1')['Adj Close']
 	print(data.head())
 
